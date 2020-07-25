@@ -34,16 +34,40 @@ function App() {
         <h1>ON SALE</h1>
       </div>
       <div className="content-2">
-        <h1>brand new section</h1>
+        <div className="wrapper">
+          <h1>LEGENDARY NIGHTS</h1>
+        </div>
+        <img
+          src="https://api.meekmill.com/wp-content/uploads/2019/06/LNT-%E2%80%93-Tear-Landscape-3.0-1024x576.jpg"
+          alt=""
+        />
       </div>
       <div className="content-3">
-        <h1>brand new section</h1>
+        <div className="wrapper">
+          <h1>LEGENDARY NIGHTS</h1>
+        </div>
+        <img
+          src="https://api.meekmill.com/wp-content/uploads/2019/06/LNT-%E2%80%93-Tear-Landscape-3.0-1024x576.jpg"
+          alt=""
+        />
       </div>
-      <div className="content-4">
-        <h1>brand new section</h1>
+      <div className="content-3">
+        <div className="wrapper">
+          <h1>LEGENDARY NIGHTS</h1>
+        </div>
+        <img
+          src="https://api.meekmill.com/wp-content/uploads/2019/06/LNT-%E2%80%93-Tear-Landscape-3.0-1024x576.jpg"
+          alt=""
+        />
       </div>
-      <div className="content-4">
-        <h1>brand new section</h1>
+      <div className="content-3">
+        <div className="wrapper">
+          <h1>LEGENDARY NIGHTS</h1>
+        </div>
+        <img
+          src="https://api.meekmill.com/wp-content/uploads/2019/06/LNT-%E2%80%93-Tear-Landscape-3.0-1024x576.jpg"
+          alt=""
+        />
       </div>
     </div>
   );
