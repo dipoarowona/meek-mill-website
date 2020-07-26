@@ -16,6 +16,10 @@ div {
 #landingpage {
   height: 80vh;
 }
+#landingpage-nav-hover {
+  height: 100vh;
+}
+
 video {
   position: fixed;
   right: 0;

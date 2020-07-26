@@ -1,6 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MainContext } from "./MainContext";
 import "./CSS/App.css";
+
 const Nav = () => {
+  const [page, setPage] = useContext(MainContext);
+  const hover_reform = (e) => {
+    setPage("reform");
+  };
+  const hover_music = (e) => {
+    setPage("music");
+  };
+  const hover_tour = (e) => {
+    setPage("tour");
+  };
+  const hover_videos = (e) => {
+    setPage("videos");
+  };
+  const hover_store = (e) => {
+    setPage("store");
+  };
+  const hover_home = (e) => {
+    setPage("home");
+  };
+
   return (
     <nav className="navbar navbar-dark navbar-expand-md fixed-bottom">
       <div className="container">
@@ -23,32 +45,68 @@ const Nav = () => {
         >
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link" id="nav-link" href="#">
+              <a
+                onMouseOver={hover_home}
+                onMouseOut={hover_home}
+                className="nav-link"
+                id="nav-link"
+                href="#"
+              >
                 HOME
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="nav-link" href="#">
+              <a
+                onMouseOver={hover_music}
+                onMouseOut={hover_home}
+                className="nav-link"
+                id="nav-link"
+                href="#"
+              >
                 MUSIC
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="nav-link" href="#">
+              <a
+                onMouseOver={hover_tour}
+                onMouseOut={hover_home}
+                className="nav-link"
+                id="nav-link"
+                href="#"
+              >
                 TOUR
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="nav-link" href="#">
+              <a
+                onMouseOver={hover_videos}
+                onMouseOut={hover_home}
+                className="nav-link"
+                id="nav-link"
+                href="#"
+              >
                 VIDEOS
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="nav-link" href="#">
+              <a
+                onMouseOver={hover_store}
+                onMouseOut={hover_home}
+                className="nav-link"
+                id="nav-link"
+                href="#"
+              >
                 STORE
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="nav-link" href="#">
+              <a
+                onMouseOver={hover_reform}
+                onMouseOut={hover_home}
+                className="nav-link"
+                id="nav-link"
+                href="#"
+              >
                 #REFORM
               </a>
             </li>
