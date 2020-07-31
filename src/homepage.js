@@ -1,5 +1,6 @@
 import React, { useEffect, useContext, useState } from "react";
 import { MainContext } from "./MainContext";
+import Footer from "./footer";
 
 const HomePage = () => {
   const [page, setPage] = useContext(MainContext);
@@ -36,7 +37,7 @@ const HomePage = () => {
   if (page === "music") {
     content = (
       <div id="landingpage-nav-hover">
-        <video autoPlay loop muted>
+        <video style={{ zIndex: "1" }} autoPlay loop muted>
           <source
             src="https://api.meekmill.com/wp-content/uploads/2018/08/meekvideomusic.mp4"
             type="video/mp4"
@@ -48,7 +49,7 @@ const HomePage = () => {
   if (page === "tour") {
     content = (
       <div id="landingpage-nav-hover">
-        <video autoPlay loop muted>
+        <video style={{ zIndex: "1" }} autoPlay loop muted>
           <source
             src="https://api.meekmill.com/wp-content/uploads/2018/08/MMtourSite2-1.mp4"
             type="video/mp4"
@@ -60,7 +61,7 @@ const HomePage = () => {
   if (page === "videos") {
     content = (
       <div id="landingpage-nav-hover">
-        <video autoPlay loop muted>
+        <video style={{ zIndex: "1" }} autoPlay loop muted>
           <source
             src="https://api.meekmill.com/wp-content/uploads/2018/08/MMsiteVIDEO.mp4"
             type="video/mp4"
@@ -72,7 +73,7 @@ const HomePage = () => {
   if (page === "store") {
     content = (
       <div id="landingpage-nav-hover">
-        <video autoPlay loop muted>
+        <video style={{ zIndex: "1" }} autoPlay loop muted>
           <source
             src="https://api.meekmill.com/wp-content/uploads/2018/08/MMStore.mp4"
             type="video/mp4"
@@ -84,7 +85,7 @@ const HomePage = () => {
   if (page === "reform") {
     content = (
       <div id="landingpage-nav-hover">
-        <video autoPlay loop muted>
+        <video style={{ zIndex: "1" }} autoPlay loop muted>
           <source
             src="https://api.meekmill.com/wp-content/uploads/2018/08/REFORMvidforsite.mp4"
             type="video/mp4"
@@ -133,6 +134,7 @@ const HomePage = () => {
           alt=""
         />
       </div>
+      <Footer />
     </div>
   );
 };

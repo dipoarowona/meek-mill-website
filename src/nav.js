@@ -72,7 +72,7 @@ const Nav = () => {
                 onMouseOut={hover_home}
                 className="nav-link"
                 id="nav-link"
-                href="#"
+                href="/tour"
               >
                 TOUR
               </a>
@@ -83,7 +83,7 @@ const Nav = () => {
                 onMouseOut={hover_home}
                 className="nav-link"
                 id="nav-link"
-                href="#"
+                href="/videos"
               >
                 VIDEOS
               </a>
@@ -94,7 +94,7 @@ const Nav = () => {
                 onMouseOut={hover_home}
                 className="nav-link"
                 id="nav-link"
-                href="#"
+                href="https://shop.meekmill.com/"
               >
                 STORE
               </a>
@@ -105,7 +105,7 @@ const Nav = () => {
                 onMouseOut={hover_home}
                 className="nav-link"
                 id="nav-link"
-                href="#"
+                href="https://reformalliance.com/"
               >
                 #REFORM
               </a>

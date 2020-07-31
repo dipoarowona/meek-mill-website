@@ -41,6 +41,7 @@ video {
 }
 nav {
   background-color: black;
+  border-top: white solid 1px;
 }
 .nav {
   font-size: 40px;

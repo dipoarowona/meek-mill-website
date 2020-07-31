@@ -1,0 +1,39 @@
+h1 {
+  color: white;
+}
+
+#footer {
+  margin-top: -40px;
+  margin-bottom: 20vh;
+  color: white;
+}
+#icons {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  justify-content: space-around;
+  padding: 50px 0 50px 0;
+}
+.fa {
+  font-size: 70px;
+}
+
+#icons a {
+  color: white;
+  border-right: white solid 1px;
+}
+
+.fa:hover {
+  color: rgb(189, 185, 185);
+}
+
+#logo-bg {
+  background-color: white;
+}
+
+#logo-bg img {
+  width: 100px;
+  color: white;
+}
