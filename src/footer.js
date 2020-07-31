@@ -21,8 +21,18 @@ const Footer = () => {
         </a>
       </div>
       <div id="logo-bg">
-        <img id="MMG" src={MMG} />
-        <img id="DC-Logo" src={DC} />
+        <div>
+          <img id="MMG" src={MMG} />
+          <img id="DC-Logo" src={DC} />
+        </div>
+        <div id="legal">
+          <a>
+            <h1>TERMS</h1>
+          </a>
+          <a>
+            <h1>PRIVACY</h1>
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -3,8 +3,7 @@ h1 {
 }
 
 #footer {
-  margin-top: -40px;
-  margin-bottom: 20vh;
+  margin-bottom: 12vh;
   color: white;
 }
 #icons {
@@ -30,10 +29,26 @@ h1 {
 }
 
 #logo-bg {
-  background-color: white;
+  display: flex;
+  background-color: rgb(184, 184, 184);
+  justify-content: space-between;
 }
 
 #logo-bg img {
   width: 100px;
   color: white;
+}
+
+#legal h1 {
+  color: black;
+  padding-left: 40px;
+}
+
+#legal h1:hover {
+  color: rgb(189, 185, 185);
+}
+
+#legal {
+  display: flex;
+  justify-content: space-evenly;
 }
