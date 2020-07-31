@@ -14,7 +14,7 @@ const HomePage = () => {
   });
   let content = "";
 
-  if (page == "home") {
+  if (page === "home") {
     content = (
       <div>
         <div id="landingpage">
@@ -33,7 +33,7 @@ const HomePage = () => {
       </div>
     );
   }
-  if (page == "music") {
+  if (page === "music") {
     content = (
       <div id="landingpage-nav-hover">
         <video autoPlay loop muted>
@@ -45,7 +45,7 @@ const HomePage = () => {
       </div>
     );
   }
-  if (page == "tour") {
+  if (page === "tour") {
     content = (
       <div id="landingpage-nav-hover">
         <video autoPlay loop muted>
@@ -57,7 +57,7 @@ const HomePage = () => {
       </div>
     );
   }
-  if (page == "videos") {
+  if (page === "videos") {
     content = (
       <div id="landingpage-nav-hover">
         <video autoPlay loop muted>
@@ -69,7 +69,7 @@ const HomePage = () => {
       </div>
     );
   }
-  if (page == "store") {
+  if (page === "store") {
     content = (
       <div id="landingpage-nav-hover">
         <video autoPlay loop muted>
@@ -81,7 +81,7 @@ const HomePage = () => {
       </div>
     );
   }
-  if (page == "reform") {
+  if (page === "reform") {
     content = (
       <div id="landingpage-nav-hover">
         <video autoPlay loop muted>
@@ -93,7 +93,6 @@ const HomePage = () => {
       </div>
     );
   }
-
   return (
     <div>
       {content}

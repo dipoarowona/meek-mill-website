@@ -51,6 +51,9 @@ nav {
 .nav-link:hover {
   color: white;
 }
+.nav-link:active {
+  color: white;
+}
 
 .content-1 {
   width: 95%;
@@ -69,7 +72,7 @@ nav {
 }
 .wrapper {
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 .content-2 .wrapper h1,
 .content-3 .wrapper h1 {

@@ -50,7 +50,7 @@ const Nav = () => {
                 onMouseOut={hover_home}
                 className="nav-link"
                 id="nav-link"
-                href="#"
+                href="/"
               >
                 HOME
               </a>
@@ -61,7 +61,7 @@ const Nav = () => {
                 onMouseOut={hover_home}
                 className="nav-link"
                 id="nav-link"
-                href="#"
+                href="/music"
               >
                 MUSIC
               </a>
